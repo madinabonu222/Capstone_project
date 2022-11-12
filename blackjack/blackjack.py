@@ -17,7 +17,7 @@ def calculate_score(cards):
 def compare(user_score, computer_score):
   # If user and computer both over, you lose
   if user_score and computer_score > 21:
-    return "You went over. You lose 😤"
+    return "You went over. You lose 😤."
   if user_score == computer_score:
     return "Draw 🙃"
   elif computer_score == 0:
